@@ -3,11 +3,10 @@ public class john
 {
     public static void main(String[] args)
     {
-        Scanner wesly=new Scanner(System.in);
-        double n,m,ans;
-        n=wesly.nextDouble();
-        m=wesly.nextDouble();
-        ans=n*m;
-        System.out.printf("%.2f",ans);
+        Scanner sc = new Scanner (System.in);
+        double a = sc.nextDouble();
+        double b = sc.nextDouble();
+        System.out.printf("%.2f",a*b);
+        
     }
 }
