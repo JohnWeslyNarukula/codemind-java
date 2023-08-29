@@ -1,26 +1,17 @@
-import java.util.Scanner;
+import java.util.*;
 public class john
 {
     public static void main(String[] args)
     {
-        Scanner sc = new Scanner(System.in);
-        int n,i;
-        n = sc.nextInt();
-        int ai[] = new int[n];
-        for(i=0;i<n;i++)
+        Scanner sc = new Scanner (System.in);
+        int n = sc.nextInt();
+        int arr[] = new int[n];
+        for(int i = 0;i < arr.length;i++)
         {
-            ai[i] =sc.nextInt();
+            arr[i] = sc.nextInt();
+     
         }
-        int max;
-        max=ai[0];
-        for(i=0;i<n;i++)
-        {
-            if ( max<ai[i] )
-            {
-                max=ai[i];
-            }
-        }
-        System.out.printf("%d",max);
-        
+        Arrays.sort(arr);
+        System.out.print(arr[n-1]);
     }
 }
