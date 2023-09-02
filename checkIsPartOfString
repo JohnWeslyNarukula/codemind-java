@@ -1,0 +1,11 @@
+public class checkIsItPartOfString {
+    public static void main(String[] args)
+    {
+        String n1 = "John❤️Wesly";
+        String n2 ="ly";
+        String n3 ="jw";
+        System.out.println(n1.contains(n2));
+        System.out.println(n1.contains(n3));
+        
+    }
+}
