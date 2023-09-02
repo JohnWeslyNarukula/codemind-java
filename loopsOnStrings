@@ -1,0 +1,11 @@
+public class loopsOnStrings {
+    public static void main(String[] args)
+    {
+        String n = "John❤️Wesly";
+        // s.length()
+        for(int i = 0 ; i< n.length(); i++)
+        {
+            System.out.println(n.charAt(i));
+        }
+    }
+}
