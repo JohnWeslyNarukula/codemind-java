@@ -1,0 +1,21 @@
+java.util.Array
+Arrays class contain some very useful utility static methods that can applied on array for
+Syntax:
+
+Array.toString()
+Array.sort()
+
+Array.fill():
+Used to fill  array with single value 
+Array.equals(arr1,arr2):-----boolean
+true ,both arrays are equal in terms of values
+false,otherwise
+
+Array.compare(arr1,arr2):----int
+value based comarison
+1--> if array1 is greter then array2
+0-->if array1 is equal to array2
+-1-->if array1 is smaller then array2
+the first differing value
+
+
