@@ -1,0 +1,5 @@
+Auto Boxing:
+The automatic conversion that java compiler does between a Primitive valu and it's corresponding wrapper class.
+
+Auto-Unboxing:
+The automatic conversion that java compiler does between a wrapper class object and it's corresponding primitive valu.
