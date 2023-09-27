@@ -1,0 +1,147 @@
+DATA TYPES IN JAVA
+
+
+Primtive data types:-
+
+boolen------------true/false  (1 bit)
+byte--------------signed 8 bit integer -128 127- 2^7 to 2^7-1
+short-------------signed 16 bit integer -2^15 t0 2^15-1
+int----------------signed 32 bit integer - 2^31 to 2^ 31-1
+long--------------signed 62 bit integer -2^63 to 2^63-1
+float--------------signed precision (7-bit) floating point value
+double------------Double precision (15-bit) floating point value
+char--------------used to stoer character (16 bit)
+
+Naming Convensions in Java:
+
+Java uses CamelaCse instead of using a
+
+first_name-----> Snake Case
+firstName------>CamelCase
+primes_in_a_range--->Snake Case
+primesInARange------>Camel Case
+
+
+Identifiers
+
+variables 
+functions
+classes
+packages
+interface
+annotations
+
+Rules:
+
+1. Allowed Characters A-Z,a-z,0-9,_,$
+2. Identifier name cannot start with a digit firstname ,number1, 1stnumber ,_number,$number
+3. Keywords cannot be used as idintifiers for, class ,public ,sttic, void ,if ,else
+4. White spaces are not allowed.
+first name invalid
+first_name
+5. Case sensitive
+name ,NAME ,NAme,naME
+6. Cannot use _ itself as a identifier name
+7. we can use $ as an identifier name
+
+
+String --> Not a primitive type
+
+Operators
+Based on number of operands requried
+ 
+1. Arithmetic:-
+
+op		DOES			Result
++		addition			sum
+-		subtraction		Difference
+*		Mutiplication		Prodect
+/		Division			Quotient
+%             Modulo Division		Remainder
+
+2. Relational:-
+
+op		DOES					Result
+<		less than					true/false
+>		Greater then				true/flase
+<=		less then or equale to		true/flase
+>=		greater then or equale to		true/flase
+==		equal to					true/flase
+!=		not equal to				true/flase
+
+3. Logical:-
+
+AND
+OR
+NOt
+
+4. Bitwise
+
+5 . Assignment
+
+6 .Increment
+7 . Instance of
+8. Ternary
+
+
+Scope of the Variables :
+
+Class : Grouping of identical objects in programing combination of 
+
+
+member variables ---> attributes 
+
+member functions ---> actions/behavior
+
+it is a prototype
+
+local variables 
+
+Declared inside a class  inside a variable 
+
+Scope : The method/ The block
+
+Instance Variables
+ 
+inside a class but outside a method
+without the static keyword
+instance variable can be accessed through
+instance of a class only (object of the class)
+you cannot instance variables with class name 
+How to create an instance of the class
+Syntax:
+new classname()
+Instances will be stored in an object of that class.
+class/static variable
+Inside a class but outside a methode with
+Static keyword;
+Access it using class name or an instance of a class .
+
+
+BLOCK SCOPE---------------------------------------------------------
+
+ we can print the variable in its block only
+ex:-
+public class BlockScope
+{
+    public static void main(String[] args)
+    {
+        int a =10;
+        {
+            int b = 20;
+            {
+                int c = 30;
+                System.out.println(c);
+            }
+            System.out.println(b);
+        }
+        System.out.println(a);
+    }
+}
+
+
+
+
+
+
+
