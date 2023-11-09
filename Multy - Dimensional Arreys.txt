@@ -1,0 +1,28 @@
+Multy - Dimensional Arreys
+A 2-D Array
+A two Dimensional array is a combination of few one dimensional arrays. we can say a 2-D
+Syntax for 2D arreys decleration in java
+datatype [][] array_name = new datatype[r][c]
+Ex :- int[][] towDarray = new int[][]
+
+A 2-D arrays in java can be created in so many ways
+1. 2-D array through compile-time initialization.
+Ex:
+ int[][] arr={{10,20,30},{30,40},{30,50,85}}
+String[][] arr={{"jp","jo",jm"},{"ko","ki"}}
+char[][] arr ={{"h","j","k"},{"v"}}
+ double[][] arr={{1.0,2.0,3.0},{3.10,4.40},{3.50,5.70,8.95}}
+
+
+First line inpurt contains 2 values r and c denoting rows and columns 
+
+The next r lines contains c valus in each line
+Ex:
+2 4
+10 20 30 40
+50 60 70 80
+EX:
+3 2
+10 20
+30 40
+50 60
